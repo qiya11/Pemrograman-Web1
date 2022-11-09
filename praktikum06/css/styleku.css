@@ -1,0 +1,83 @@
+body {
+    background-color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    color:blueviolet;
+    text-align: center;
+}
+img {
+    width: 20%;
+}
+p {
+    text-align: justify;
+}
+.center {
+    display: block;
+    margin: auto;
+}
+.foto {
+    background-color: black;
+}
+.promo {
+    text-align: center;
+}
+.cod p{
+    background-color: aquamarine;
+    text-align: center;
+    border:2px solid black;
+    font-weight: bold;
+    color: blue;
+    width: max-content;
+    margin:5px auto;
+    padding:10px;
+}
+#tombol {
+    background-color: green;
+    cursor:pointer;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+}
+.btn {
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #F5F5DD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote {
+    background-color: yellow;
+}
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+.fp::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+.koleksi{
+    text-align: center;
+}
+
+.koleksi img{
+    width: 20%;
+}
