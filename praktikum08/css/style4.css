@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+header, footer{
+    background-color: slateblue;
+    color: whitesmoke;
+    height: 10vh;
+    line-height: 10vh;
+}
+nav{
+    background-color: powderblue;
+    height: 100vh;
+    float: left;
+    width: 300px;
+}
+main{
+    display: flex;
+    justify-content: baseline;
+    height: 80vh;
+    line-height: 80vh;
+}
+article{
+    background-color: plum;
+    flex: 2;
+}
+aside{
+    background-color: pink;
+    flex: 1;
+}
